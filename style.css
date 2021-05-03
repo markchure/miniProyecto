@@ -1,0 +1,74 @@
+/* html {
+  height: 100%;
+}
+body {
+  height: 100%;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+} */
+
+/* https://www.youtube.com/watch?v=j1AhSWFcZpg | web responsive con media queries*/ 
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  height: 100%;
+}
+
+body{
+  /* background: linear-gradient(#e66465, #9198e5); */
+  background: linear-gradient(#4da0b0,#d39d38);
+  background-repeat: no-repeat; 
+  /* background-image: url(); */
+}
+
+.form-register{
+  width: 400px;
+  background: #24303c;
+  padding: 30px;
+  margin: auto;
+  margin-top: 100px;
+  border-radius:4px;
+  font-family: 'calibri';
+  color: white;
+  box-shadow: 7px 13px 37px #000;
+}
+
+.form-register h4{
+  font-size: 28px;
+  letter-spacing:6px;
+}
+
+.controls{
+  width: 100%;
+  background: #24303c;
+  padding: 10px;
+  border-radius: 4px;
+  margin-top: 16px;
+  border: 1px solid #1f53c5;
+  font-family: 'calibri';
+  font-size: 16px;
+  color: white;
+}
+
+.form-register #button{
+  width: 100%;
+  background: #1f53c5;
+  border:none;
+  padding: 12px;
+  color: white;
+  margin: 16px 0;
+  font-size: 16px;
+}
+
+
+@media only screen and (max-width:400px){
+  .form-register{
+    width: 100%;
+  }
+}
